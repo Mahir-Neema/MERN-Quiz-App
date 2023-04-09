@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Resulttable from './Resulttable';
 
 function Result() {
 
@@ -39,6 +40,9 @@ function Result() {
 
         <div className="start">
             <Link to='/' onClick={restart}>Restart</Link>
+        </div>
+        <div className="container">
+            <Resulttable/>
         </div>
     </div>
   )
