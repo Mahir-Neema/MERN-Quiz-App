@@ -1,8 +1,10 @@
 import React from 'react'
 import Questions from './Questions'
+import {useSelector} from 'react-redux'
 
 function Quiz() {
 
+    const state = useSelector(state=>state)
 
     const Prev = () =>{
         
