@@ -18,5 +18,25 @@ export default [
             'option C1',
             'option D1',
         ]
+    },
+    {
+        id: 3,
+        question: "3 rwerwrett rerewht wt",
+        options:[
+            'option A1',
+            'option B1',
+            'option C1',
+            'option D1',
+        ]
+    },
+    {
+        id: 4,
+        question: "4 fj fodsijf ofpdsfjf ",
+        options:[
+            'option A1',
+            'option B1',
+            'option C1',
+            'option D1',
+        ]
     }
 ]

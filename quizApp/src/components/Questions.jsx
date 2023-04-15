@@ -10,7 +10,9 @@ function Questions() {
     const question = Data[0];
 
     useEffect(()=>{
-        console.log(question); 
+        console.log(isLoading); 
+        console.log(apiData); 
+        console.log(serverError); 
     })
 
     const ansselect = () => {

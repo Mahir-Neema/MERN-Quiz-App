@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 
 
 // redux actions
-import * as Action from '../redux/question_reducer'
+import * as action from '../../redux/question_reducer'
 
 
 export const useFetchQuestion = () => {
@@ -22,7 +22,7 @@ export const useFetchQuestion = () => {
                     setgetData(prev => ({...prev,isLoading:false}));
                     setgetData(prev => ({...prev,apiData:question}));  
 
-                    dispatch(Action.startQuizAction());
+                    dispatch(action.startQuizAction(question));
                 }
                 else{
                     throw new Error("No questions fetched/available");
