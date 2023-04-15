@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Data from './data/Data'
+import { useFetchQuestion } from './Hooks/FetchQuestions';
 
 function Questions() {
 
-    const [tick,settick] = useState(undefined)
+    const [tick,settick] = useState(undefined);
+    const [{isLoading, apiData, serverError}] = useFetchQuestion();
 
     const question = Data[0];
 

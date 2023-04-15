@@ -4,7 +4,7 @@ import {useSelector} from 'react-redux'
 
 function Quiz() {
 
-    const state = useSelector(state=>state)
+    const state = useSelector(state=>state);
 
     const Prev = () =>{
         
